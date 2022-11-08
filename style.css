@@ -38,7 +38,6 @@ nav ul li a:link {
     color: #000;
     font-size: 28px;
     font-weight: 300;
-    align-items: center;
 }
 
 nav ul li a:visited {
@@ -46,7 +45,6 @@ nav ul li a:visited {
     color: #000;
     font-size: 28px;
     font-weight: 300;
-    align-items: center;
 }
 
 nav ul li a:hover {
@@ -54,7 +52,6 @@ nav ul li a:hover {
     color: #fff;
     font-size: 28px;
     font-weight: 300;
-    align-items: center;
     background-color: rgb(94, 94, 94);
     transition: 0.4s;
     border-radius: 10px;
@@ -65,11 +62,8 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-
 #profile a {
     font-weight: 500;
-    text-decoration: underline;
-    font-size: 28px;
 }
 
 nav ul li img {
@@ -80,4 +74,115 @@ nav ul li img {
     border: 2px solid #000;
     border-radius: 50px;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: repeat(2, 350px);
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#home-profile {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#home-profile img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #000;
+    border-radius: 50%;
+    margin-top: 35px;
+}
+
+#home-profile h1 {
+    color: #fff;
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#home-profile p {
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 100;
+    text-align: center;
+    margin: 0;
+}
+
+#following-user {
+    display: grid;
+    grid-template-columns: 55px 250px;
+    grid-template-rows: 60px;
+    row-gap: 5px;
+    column-gap: 5px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#home-following span {
+    color: #fff;
+    font-size: 32px;
+    font-family: Roboto;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+#following-user img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+#following-user p {
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+#following-user a:link {
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#following-user a:visited {
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#following-user a:hover {
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
 
