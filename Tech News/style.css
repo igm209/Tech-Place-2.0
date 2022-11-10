@@ -1,0 +1,242 @@
+body {
+    background-image: url(/Assests/background-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Roboto;
+}
+
+#logo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logo img{
+    width: 20%;
+}
+
+nav {
+    border: 3px solid #000;
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+}
+
+nav ul li a {
+    padding: 10px 5px;
+}
+
+nav ul li a:link {
+    text-decoration: none;
+    color: #000;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+nav ul li a:visited {
+    text-decoration: none;
+    color: #000;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+    background-color: rgb(94, 94, 94);
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+#active a {
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+#profile a {
+    font-weight: 500;
+}
+
+nav ul li img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    padding: 0;
+    border: 2px solid #000;
+    border-radius: 50px;
+}
+
+.page {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#tranding {
+    border: 3px solid #fff;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 30px;
+    width: 320px;
+    height: 770px;
+}
+#tranding h2 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+#text {
+    margin-bottom: 15px;
+}
+
+#text h3 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 22px;
+}
+
+#text a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+#text a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#text a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#text p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 22px;
+}
+
+#news {
+    border: 3px solid #fff;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 30px;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 110px 930px 120px;
+    grid-template-rows: repeat(10, 84px);
+    margin: 18px;
+    row-gap: 35px;
+    column-gap: 5px;
+    align-items: center;
+}
+
+#avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin: 0;
+    margin-left: 5px;
+}
+
+#article-text h2 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 300;
+    margin: 0;
+}
+
+#article-text h2 a:link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+#article-text h2 a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#article-text h2 a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#article-text p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+}
+
+#main h4 {
+    color: rgb(187, 187, 187);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer p {
+    margin: 0;
+}
