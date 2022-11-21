@@ -1,0 +1,291 @@
+body {
+    background-image: url(/Assests/background-7.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Roboto;
+}
+
+#logo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logo img{
+    width: 20%;
+}
+
+.navbar {
+    border: 3px solid #000;
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar ul li a {
+    padding: 10px 5px;
+}
+
+.navbar ul li a:link {
+    text-decoration: none;
+    color: #000;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.navbar ul li a:visited {
+    text-decoration: none;
+    color: #000;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.navbar ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+    background-color: rgb(94, 94, 94);
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+.navbar ul li img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    padding: 0;
+    border: 2px solid #000;
+    border-radius: 50px;
+}
+
+#active a {
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+#profile a {
+    font-weight: 500;
+}
+
+.navbar-2 {
+    border: 3px solid #fff;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+.navbar-2 ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar-2 ul li a {
+    padding: 10px 5px;
+}
+
+.navbar-2 ul li a:link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.navbar-2 ul li a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+
+.navbar-2 ul li a:hover {
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+.page {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+section {
+    border: 3px solid #fff;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 40px;
+    margin-top: 10px;
+    width: 1400px;
+    display: flex;
+    flex-flow: column;
+    padding: 10px 20px;
+}
+
+#main-article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#user {
+    display: flex;
+    align-items: center;
+}
+
+#user-avatar {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    border: 2px solid #000;
+    border-radius: 50px;
+}
+
+#topic h2 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+    margin-left: 22px;
+}
+
+#topic a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+#topic a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#topic a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#topic p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 22px;
+}
+
+#likes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+#likes img {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+#likes p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+#date h4 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 22px;
+}
+
+aside {
+    border: 3px solid #fff;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 40px;
+    margin-top: 10px;
+    width: 400px;
+    display: flex;
+    flex-flow: column;
+}
+
+aside h2 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+#text {
+    margin-bottom: 15px;
+}
+
+#text h3 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 22px;
+}
+
+#text a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+#text a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#text a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#text p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 22px;
+}
+
+footer {
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
