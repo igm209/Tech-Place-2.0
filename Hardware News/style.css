@@ -1,5 +1,5 @@
 body {
-    background-image: url(/Assests/background-5.jpg);
+    background-image: url(/Assests/background-3.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Roboto;
@@ -140,93 +140,101 @@ nav ul li img {
     margin-left: 22px;
 }
 
-#news {
+section {
     border: 3px solid #fff;
     background-color: rgba(0, 0, 0, 0.85);
-    border-radius: 30px;
+    border-radius: 40px;
+    width: 1170px;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    padding: 10px 20px;
 }
 
-#main {
-    display: grid;
-    grid-template-columns: 110px 930px 120px;
-    grid-template-rows: repeat(10, 84px);
-    margin: 18px;
-    row-gap: 35px;
-    column-gap: 5px;
+#main-article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#user {
+    display: flex;
     align-items: center;
 }
 
-#avatar {
+#user-avatar {
     width: 80px;
     height: 80px;
+    padding: 0;
+    border: 2px solid #000;
     border-radius: 50px;
-    margin: 0;
-    margin-left: 5px;
 }
 
-#article-text h2 {
+#topic h2 {
     color: #fff;
     font-family: Roboto;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 300;
     margin: 0;
+    margin-left: 22px;
 }
 
-#article-text h2 a:link {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 400;
-}
-
-#article-text h2 a:visited {
+#topic a:link {
     color: #fff;
     text-decoration: none;
 }
 
-#article-text h2 a:hover {
+#topic a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#topic a:hover {
     color: #fff;
     text-decoration: underline;
 }
 
-#article-text p {
+#topic p {
     color: #fff;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
     margin: 0;
+    margin-top: 5px;
+    margin-left: 22px;
 }
 
-#main h4 {
-    color: rgb(187, 187, 187);
+#likes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+#likes img {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+#likes p {
+    color: #fff;
     font-family: Roboto;
-    font-size: 20px;
-    font-weight: 300;
-    margin: 0;
+    font-size: 22px;
+    font-weight: 100;
+    margin-left: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#date h4 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 22px;
+}
 
 footer {
     color: #fff;
