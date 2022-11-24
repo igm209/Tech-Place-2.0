@@ -1,0 +1,92 @@
+body {
+    background-image: url(/Assests/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Roboto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+}
+
+#page {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+img {
+    margin-bottom: 100px;
+    width: 110%;
+}
+
+input {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 100;
+    padding: 15px 25px;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+button {
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 26px;
+    padding: 15px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 10px;
+}
+  
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+button:hover span {
+   padding-right: 25px;
+   color: #000;
+}
+
+button:hover {
+    background-color: #fff;
+}
+ 
+button:hover span:after {
+   opacity: 1;
+   right: 0;
+}
+
+footer {
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer p {
+    margin: 0;
+}
